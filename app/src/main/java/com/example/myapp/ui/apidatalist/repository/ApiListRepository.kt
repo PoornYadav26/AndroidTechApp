@@ -1,7 +1,7 @@
-package com.example.myapp.ui.apilist.activity.repository
+package com.example.myapp.ui.apidatalist.repository
 
 import com.example.myapp.interfaces.ApplicationAPI
-import com.example.myapp.ui.apilist.activity.model.ApiListResultWrapper
+import com.example.myapp.ui.apidatalist.model.ApiListResultWrapper
 import retrofit2.Response
 import javax.inject.Inject
 import javax.inject.Singleton

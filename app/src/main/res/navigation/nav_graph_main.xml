@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/apiListFragment"
-        android:name="com.example.myapp.ui.apilist.activity.fragment.ApiListFragment"
+        android:name="com.example.myapp.ui.apidatalist.fragment.ApiListFragment"
         android:label="fragment_api_list"
         tools:layout="@layout/fragment_api_list" >
         <action
@@ -16,7 +16,7 @@
     </fragment>
     <fragment
         android:id="@+id/APIDetailFragment"
-        android:name="com.example.myapp.ui.apilist.activity.fragment.APIDetailFragment"
+        android:name="com.example.myapp.ui.apidatalist.fragment.APIDetailFragment"
         android:label="fragment_a_p_i_detail"
         tools:layout="@layout/fragment_a_p_i_detail" />
 </navigation>

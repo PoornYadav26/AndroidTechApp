@@ -1,17 +1,16 @@
-package com.example.myapp.ui.apilist.activity.viewmodel
+package com.example.myapp.ui.apidatalist.viewmodel
 
 import android.content.Context
 import android.util.Log
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.example.myapp.ui.apilist.activity.model.ApiListResultWrapper
-import com.example.myapp.ui.apilist.activity.repository.ApiListRepository
+import com.example.myapp.ui.apidatalist.model.ApiListResultWrapper
+import com.example.myapp.ui.apidatalist.repository.ApiListRepository
 import com.example.myapp.util.NetworkUtil.Companion.hasInternetConnection
 import com.example.myapp.util.Resource
 import dagger.hilt.android.lifecycle.HiltViewModel
 import dagger.hilt.android.qualifiers.ApplicationContext
-import dagger.hilt.android.scopes.ViewModelScoped
 import kotlinx.coroutines.launch
 import retrofit2.Response
 import java.io.IOException

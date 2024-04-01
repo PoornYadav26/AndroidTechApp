@@ -1,21 +1,19 @@
-package com.example.myapp.ui.apilist.activity.adapter
+package com.example.myapp.ui.apidatalist.adapter
 
 import android.graphics.Paint
 import android.view.LayoutInflater
-import android.view.View
 import android.view.ViewGroup
 import android.widget.Filter
 import android.widget.Filterable
-import android.widget.TextView
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.RecyclerView
-import com.example.myapp.clicklistner.RecyclerviewListner
+import com.example.myapp.clicklistener.RecyclerviewListener
 import com.example.myapp.databinding.RowApiListBinding
-import com.example.myapp.ui.apilist.activity.model.EntryModel
+import com.example.myapp.ui.apidatalist.model.EntryModel
 import java.util.Locale
 
 class ApiListAdapter(private var originalList: List<EntryModel>,
-                     private val listener: RecyclerviewListner
+                     private val listener: RecyclerviewListener
 ) :
     RecyclerView.Adapter<ApiListAdapter.APIListViewHolder>(), Filterable {
 

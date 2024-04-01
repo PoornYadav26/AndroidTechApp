@@ -1,4 +1,4 @@
-package com.example.myapp.ui.apilist.activity.fragment
+package com.example.myapp.ui.apidatalist.fragment
 
 import android.graphics.Bitmap
 import android.os.Bundle
@@ -7,7 +7,6 @@ import android.webkit.WebResourceRequest
 import android.webkit.WebView
 import android.webkit.WebViewClient
 import androidx.fragment.app.Fragment
-import androidx.navigation.fragment.NavHostFragment
 import com.example.myapp.R
 import com.example.myapp.databinding.FragmentAPIDetailBinding
 

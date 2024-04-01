@@ -1,4 +1,4 @@
-package com.example.myapp.ui.apilist.activity.model
+package com.example.myapp.ui.apidatalist.model
 
 
 import com.google.gson.annotations.SerializedName

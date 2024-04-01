@@ -1,4 +1,4 @@
-package com.example.myapp.ui.apilist.activity
+package com.example.myapp.ui.apidatalist
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
